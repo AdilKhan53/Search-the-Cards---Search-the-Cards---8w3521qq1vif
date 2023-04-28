@@ -1,1 +1,151 @@
-
+body{
+    margin: 0;
+    background-color: black;
+}
+nav{
+    background-color: rgb(12, 68, 101);
+    color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+}
+span{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+a:hover{
+    color: aqua;
+}
+.Search{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    height: 100px;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5%;
+    font-weight: 700;
+}
+button:hover{
+    transform: scale(1.05);
+    color: white;
+    background-color: black;
+}
+input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius:5%;
+}
+input:hover{
+    transform: scale(1.03);
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin-top: 10px;
+    
+}
+.card1{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1654008833486-6ac9fc46b1b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAyfHxzbWFsbCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover{
+    transform: scale(1.02);
+}
+.card2{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1676170397162-6346021f2809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c21hbGwlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1658310868281-b311aa001197?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c21hbGwlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1658321908220-5c28b36042e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21hbGwlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card5{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1672131670678-eebd92778cc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNtYWxsJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card6{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1658319133403-566f3efaf4e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHNtYWxsJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card7{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1654204649765-2dc205403d60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHNtYWxsJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+.card8{
+    border: 2px groove;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1654204651957-ea7fc52e873f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fHNtYWxsJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(12, 68, 101);
+    border: 1px solid;
+    color: white;
+    margin-top: 10px;
+}
